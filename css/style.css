@@ -1,0 +1,59 @@
+/*****************************TAG SELECTOR************************/
+/*
+.Tag < class < id (priority)
+.id can be used only one time on a Page.
+.you can not use two id for the same Tag.*/
+/*eg: <img id ="feo dis"
+.This is not valid you can do this in class*/
+body {
+  background-color: #CDFCF6;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: gray;
+  border-width: 6px;
+  height: 0px;
+  width: 5%;
+}
+
+h3 {
+  color: #66b6b6;
+}
+
+h1 {
+  color: #66b6b6;
+}
+
+/***************************** CLASS SELECTOR ********************/
+.smile {
+  background-color: gray;
+}
+
+.mihalk {
+  background-color: black;
+}
+
+.bleach {
+  background-color: black;
+  border-radius: 100%;
+  width: 200px;
+  height: 200px;
+}
+
+/*************************** ID SELECTOR ************************/
+#pro {
+  color: green;
+}
+
+/***************************** HOVER CLASS *************************/
+a:hover {
+  color: red;
+}
+h3:hover{
+  color: #3F0071;
+}
+h1:hover{
+  color: #DD5353;
+}
