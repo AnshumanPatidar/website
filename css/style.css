@@ -13,9 +13,9 @@ hr {
   border-style: none;
   border-top-style: dotted;
   border-color: gray;
-  border-width: 15px;
+  border-width: 6px;
   height: 0px;
-  width: 5%;
+  width: 10%;
 }
 
 h3 {
